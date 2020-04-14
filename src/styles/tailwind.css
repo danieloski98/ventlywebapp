@@ -1,0 +1,43 @@
+
+@font-face {
+    font-family: 'Poppins-bold';
+    src: url('../assets/fonts/Poppins-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-regular';
+    src: url('../assets/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-medium';
+    src: url('../assets/fonts/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Heebo-bold';
+    src: url('../assets/fonts/Heebo-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Heebo-medium';
+    src: url('../assets/fonts/Heebo-Medium.ttf');
+}
+
+
+@font-face {
+    font-family: 'Heebo-regular';
+    src: url('../assets/fonts/Heebo-Regular.ttf');
+}
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+/* @tailwind base;
+
+@tailwind components;
+
+@tailwind utilities; */
