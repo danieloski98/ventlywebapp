@@ -8,7 +8,8 @@ function App() {
     <BrowserRouter>
      <Switch>
         <Route path="/" exact component={HomePage} />
-        <Route path="/passwordreset/:id" exact component={ResetPassword} />
+        <Route path="/passwordreset/:email" exact component={ResetPassword} />
+        <Route path='/' render={() => (<div>Route Not Found</div>)} />
      </Switch>
     </BrowserRouter>
   );

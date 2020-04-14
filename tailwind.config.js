@@ -125,6 +125,9 @@ module.exports = {
         800: '#97266d',
         900: '#702459',
       },
+      custom: {
+        'red': '#F55C81',
+      }
     },
     spacing: {
       px: '1px',
@@ -146,6 +149,9 @@ module.exports = {
       '48': '12rem',
       '56': '14rem',
       '64': '16rem',
+      '200px': '200px',
+      '400px': '400px',
+      '500px': '500px',
     },
     backgroundColor: theme => theme('colors'),
     backgroundPosition: {
