@@ -50,7 +50,7 @@ export default class ResetPassword extends React.Component<Props, any, any> {
             } else {
                 const requestBody = { Password: confirmpassword }
                 const email = this.props.match.params['email'];
-                const request = await fetch(`http://localhost:4000/api/v1/auth/resetpassword/${email}`, {
+                const request = await fetch(`https://api.vent.ly/api/v1/auth/resetpassword/${email}`, {
                     method: 'Post',
                     headers: {
                         'Content-Type': 'application/json',
