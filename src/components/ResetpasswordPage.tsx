@@ -127,8 +127,8 @@ export default class ResetPassword extends React.Component<Props, any, any> {
                     <img src={require('../assets/images/logo.png')} width="50" height="50" alt="" />
                 </div>
                 <div className="xl:w-full xl:h-auto  xl:flex xl:justify-center lg:flex lg:justify-center md:flex md:justify-center sm:flex sm:justify-center">
-                    <div className="xl:w-500px xl:h-400 lg:w-500px lg:h-400 md:w-500px md:h-400 sm:w-11/12 sm:h-400 rounded shadow bg-white mt-10 lg:pb-6 md:pb-6 sm:pb-6">
-                        <div className="w-full h-40 bg-custom-red rounded-t flex justify-center rounded-b-md">
+                    <div className="xl:w-500px xl:h-400 lg:w-500px lg:h-400 md:w-500px md:h-400 sm:w-11/12 sm:h-400 shadow-lg bg-white mt-10 lg:pb-6 md:pb-6 sm:pb-6">
+                        <div className="w-full h-40 bg-custom-red flex justify-center ">
                             <div className="w-24 h-24 rounded-full mt-32 bg-white flex justify-center items-center">
                                 <img src={this.state.image} width="30" height="30" alt=""/>
                             </div>
@@ -180,7 +180,7 @@ export default class ResetPassword extends React.Component<Props, any, any> {
                                             </div>
                                         </div>
                                        
-                                        <h1 className="text-md text-center mt-4 text-gray-600">Having issues? <span className="text-custom-red cursor-pointer underline">Contact Us</span></h1>
+                                        <h1 className="text-sm text-center mt-8 text-gray-600">Having issues? <a className="text-custom-red cursor-pointer underline" href="mailto:support@vent.ly">Contact Us</a></h1>
                                     </div>
                                 </div>
                              )
