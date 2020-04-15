@@ -124,7 +124,7 @@ export default class ResetPassword extends React.Component<Props, any, any> {
                <div className="w-full h-screen bg-gray-100 pb-10 overflow-auto">
 
                 <div className="w-full h-20 xl:items-center xl:flex xl:justify-center lg:flex lg:justify-center lg:items-center md:flex md:justify-center md:items-center sm:flex sm:justify-center sm:items-center">
-                    <img src={require('../assets/images/logo.png')} width="50" height="50" alt="" />
+                    <img src={require('../assets/images/logo1.png')} width="50" height="50" alt="" />
                 </div>
                 <div className="xl:w-full xl:h-auto  xl:flex xl:justify-center lg:flex lg:justify-center md:flex md:justify-center sm:flex sm:justify-center">
                     <div className="xl:w-500px xl:h-400 lg:w-500px lg:h-400 md:w-500px md:h-400 sm:w-11/12 sm:h-400 shadow-lg bg-white mt-10 lg:pb-6 md:pb-6 sm:pb-6">

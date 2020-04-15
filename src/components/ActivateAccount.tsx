@@ -107,7 +107,7 @@ export default class ActivateAccount extends Component<any, any, any> {
      <Fragment>
         <div className="w-full h-screen bg-gray-200">
           <div className="w-full h-16 flex justify-center items-center">
-            <img src={require('../assets/images/logo.png')} width="40" height="40" alt="logo"/>
+            <img src={require('../assets/images/logo1.png')} width="40" height="40" alt="logo"/>
           </div>
           <div className="xl:w-full xl:h-10/12 lg:h-11/12 md:w-full md:h-11/12 lg:w-full sm:w-full sm:h-11/12 flex justify-center items-center">
             <div className="xl:w-2/6 xl:h-9/12 lg:w-2/5 lg:h-auto lg:pb-10  md:w-3/6 md:pb-10 sm:w-11/12 sm:pb-10 bg-white shadow-lg">

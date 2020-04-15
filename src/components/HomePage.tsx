@@ -8,7 +8,7 @@ export default class HomePage extends Component {
     return (
         <Fragment>
             <div className="w-full h-20 flex items-center justify-center">
-                <img src={require('../assets/images/logo.png')} width="50" height="50" alt="logo"/>
+                <img src={require('../assets/images/logo1.png')} width="50" height="50" alt="logo"/>
             </div>  
             <div className="xl:flex lg:flex md:flex sm:flex w-full xl:flex-row lg:flex-col-reverse md:flex-col-reverse sm:flex-col-reverse sm:pb-10">
                 <div className="xl:flex-1  xl:p-10 xl:w-full xl:text-left lg:flex-1 lg:p-1 lg:w-full sm:w-full md:w-full  h-auto lg:text-center md:text-center md:w-full md:p-10 md:flex-1 sm:flex-1 sm:text-center ">
