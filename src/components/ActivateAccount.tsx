@@ -105,7 +105,7 @@ export default class ActivateAccount extends Component<any, any, any> {
   render() {
     return (
      <Fragment>
-        <div className="w-full h-screen bg-gray-200">
+        <div className="w-full h-screen bg-gray-300">
           <div className="w-full h-16 flex justify-center items-center">
             <img src={require('../assets/images/logo1.png')} width="40" height="40" alt="logo"/>
           </div>
@@ -117,14 +117,14 @@ export default class ActivateAccount extends Component<any, any, any> {
                 </div>
               </div>
               <h1 className="header text-center font-poppins-regular xl:text-lg xl:mt-12 lg:text-lg lg:mt-16 md:text-md md:mt-12 sm:mt-12 sm:text-md">{this.state.writing[0].title}</h1>
-              <p className="text-center text-gray-600 font-heebo-regular xl:text-sm xl:pl-10 xl:pr-10 xl:mt-6 lg:text-sm lg:pl-10 lg:pr-10 lg:mt-4 md:pr-6 md:pl-6 md:mt-4 md:text-sm sm:pr-4 sm:pl-4 sm:mt-4 sm:text-sm">{this.state.writing[0].body}</p>
+              <p className="text-center text-gray-600 font-heebo-regular xl:text-sm xl:pl-10 xl:pr-10 xl:mt-6 lg:text-sm lg:pl-10 lg:pr-10 lg:mt-5 md:pr-6 md:pl-6 md:mt-4 md:text-sm sm:pr-4 sm:pl-4 sm:mt-4 sm:text-sm">{this.state.writing[0].body}</p>
               <div className="w-full h-12 flex justify-center">
-                <button disabled={this.state.disable} onClick={(e) => this.submit()} className="w-64 flex h-full rounded items-center xl:mt-4 lg:mt-6 justify-center text-sm text-white bg-custom-red md:mt-6 sm:mt-4">{
+                <button disabled={this.state.disable} onClick={(e) => this.submit()} className="w-64 flex h-full rounded items-center xl:mt-8 lg:mt-5 justify-center text-sm text-white bg-custom-red md:mt-6 sm:mt-8">{
                   this.state.submitting? 'Activating Account...' :
                   this.state.writing[0].btnText
                 }</button>
               </div>
-              <h1 className="text-sm text-center mt-8 text-gray-600">Having issues? <a className="text-custom-red cursor-pointer underline" href="mailto:support@vent.ly">Contact Us</a></h1>
+              <h1 className="text-sm text-center mt-16 text-gray-600">Having issues? <a className="text-custom-red cursor-pointer underline" href="mailto:support@vent.ly">Contact Us</a></h1>
             </div>
           </div>
         </div>

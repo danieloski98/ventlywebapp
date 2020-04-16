@@ -38,7 +38,10 @@ export default class ResetPassword extends React.Component<Props, any, any> {
         try{
             this.setState({
                 submitting: true,
-                image: require('../assets/images/lock.png')
+                image: require('../assets/images/lock.png'),
+                error: false,
+                errorMsg: '',
+                msg: 'Reset Your Password',
             });
             if(confirmpassword !== password) {
                 this.setState({
@@ -121,15 +124,15 @@ export default class ResetPassword extends React.Component<Props, any, any> {
     render() {
         return(
             <Fragment>
-               <div className="w-full h-screen bg-gray-100 pb-10 overflow-auto">
+               <div className="w-full h-screen bg-gray-300 pb-10 overflow-auto">
 
                 <div className="w-full h-20 xl:items-center xl:flex xl:justify-center lg:flex lg:justify-center lg:items-center md:flex md:justify-center md:items-center sm:flex sm:justify-center sm:items-center">
                     <img src={require('../assets/images/logo1.png')} width="50" height="50" alt="" />
                 </div>
                 <div className="xl:w-full xl:h-auto  xl:flex xl:justify-center lg:flex lg:justify-center md:flex md:justify-center sm:flex sm:justify-center">
-                    <div className="xl:w-500px xl:h-400 lg:w-500px lg:h-400 md:w-500px md:h-400 sm:w-11/12 sm:h-400 shadow-lg bg-white mt-10 lg:pb-6 md:pb-6 sm:pb-6">
-                        <div className="w-full h-40 bg-custom-red flex justify-center ">
-                            <div className="w-24 h-24 rounded-full mt-32 bg-white flex justify-center items-center">
+                    <div className="xl:w-2/6 xl:h-9/12 xl:mt-16 lg:w-2/5 lg:h-auto lg:pb-10  md:w-3/6 md:pb-10 sm:w-11/12 sm:pb-10 bg-white shadow-lg">
+                        <div className="w-full h-24 bg-custom-red flex justify-center ">
+                            <div className="w-24 h-24 rounded-full mt-16 bg-white flex justify-center items-center">
                                 <img src={this.state.image} width="30" height="30" alt=""/>
                             </div>
                         </div>
